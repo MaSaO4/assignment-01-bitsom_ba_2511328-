@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "ELEC001",
+    "name": "Samsung 55-inch 4K Smart TV",
+    "category": "Electronics",
+    "price": 45999,
+    "brand": "Samsung",
+    "warranty": {
+      "duration_months": 24,
+      "type": "Comprehensive",
+      "coverage": ["Manufacturing defects", "Screen damage", "Component failure"]
+    },
+    "voltage_specs": {
+      "voltage": "220-240V",
+      "frequency": "50-60Hz",
+      "power_consumption_watts": 120
+    },
+    "technical_specs": {
+      "screen_size": "55 inches",
+      "resolution": "3840x2160",
+      "refresh_rate": "120Hz",
+      "smart_features": ["WiFi", "Bluetooth", "Voice Control"]
+    }
+  },
+  {
+    "_id": "CLOTH001",
+    "name": "Men's Cotton Casual Shirt",
+    "category": "Clothing",
+    "price": 1299,
+    "brand": "Allen Solly",
+    "sizes": ["S", "M", "L", "XL", "XXL"],
+    "material": "100% Cotton",
+    "color": "Navy Blue",
+    "care_instructions": [
+      "Machine wash cold",
+      "Do not bleach",
+      "Tumble dry low",
+      "Iron on medium heat"
+    ],
+    "fit_type": "Regular Fit",
+    "pattern": "Solid",
+    "sleeve_type": "Full Sleeve"
+  },
+  {
+    "_id": "GROC001",
+    "name": "Organic Whole Wheat Bread",
+    "category": "Groceries",
+    "price": 65,
+    "brand": "Harvest Gold",
+    "expiry_date": "2024-12-15",
+    "nutritional_info": {
+      "serving_size": "2 slices (60g)",
+      "calories": 160,
+      "total_fat_g": 2.5,
+      "saturated_fat_g": 0.5,
+      "cholesterol_mg": 0,
+      "sodium_mg": 280,
+      "total_carbohydrates_g": 28,
+      "dietary_fiber_g": 4,
+      "sugars_g": 3,
+      "protein_g": 6,
+      "vitamins": {
+        "vitamin_d_mcg": 0,
+        "calcium_mg": 40,
+        "iron_mg": 2,
+        "potassium_mg": 120
+      }
+    },
+    "ingredients": ["Whole wheat flour", "Water", "Yeast", "Salt", "Sugar", "Vegetable oil"],
+    "allergen_info": ["Contains wheat", "May contain traces of soy"]
+  }
+]
